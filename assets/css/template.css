@@ -1,0 +1,71 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-size: 13px;
+  font-family: Arial;
+}
+.leftMenu{
+  width:250px ;
+  background-color:#1f232a;
+  position: absolute;
+  left: 0;
+  top:0;
+  bottom: 0;
+
+}
+.container{
+  padding-left: 250px;
+}
+.topMenu{
+  height: 50px;
+  background-color: #1f232a; 
+  color: #fff;
+  font-size: 16px;
+}
+.top_right{
+  float: right;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+  padding-right:10px;
+
+}
+.top_right a{
+  color:#fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.company_name{
+  height: 100px;
+  line-height: 100px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+.areaMenu{
+  color:#fff;
+}
+.areaMenu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+.areaMenu li{
+  height: 40px;
+  line-height: 40px;
+
+  font-size: 16px;
+  padding-left: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.areaMenu li:hover{
+  background: #616A6B;
+}
+.areaMenu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
